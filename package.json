@@ -1,0 +1,22 @@
+{
+  "name": "loginwithnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbielich/LoginwithNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbielich/LoginwithNode/issues"
+  },
+  "homepage": "https://github.com/cbielich/LoginwithNode#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
