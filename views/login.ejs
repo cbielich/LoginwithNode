@@ -6,6 +6,11 @@
     <body>
         <div class="container">
             <h1>Login</h1>
+            <% if (messages.error) { %>
+            <div class="alert alert-danger" role="alert">
+                <% messages.error %>
+            </div>
+            <% } %>
             <form action="/login" method="post">
                 <div class="mb-4">
                     <label for="email">Email</label>
